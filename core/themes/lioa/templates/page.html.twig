@@ -1,0 +1,50 @@
+<div class="embrace">
+  <div class="main_language">
+    <div class="language">
+      {{ page.header_language }}
+    </div>
+  </div>
+  <header aria-label="Site header" class="header" id="header" role="banner">
+     <div class="header--branding">
+        {{ page.header_logo }}
+     </div>
+     <div class="header--menu">
+       {{ page.header_menu }}
+     </div>
+     <div class="header--search">
+        {{ page.header_search }}
+     </div>  
+  </header>
+  <section class="slider" id="slider" role="complementary">
+    <div>
+      {{ page.slider }}
+    </div>
+    
+  </section>
+  <section class="main" id="main">
+    <div class="category_menu">
+      {{ page.category_menu }}
+    </div>
+    <div aria-label="Site main content" class="content" id="content" role="main">
+      {{ page.content }}
+    </div>
+    <div class="content_experience-main">
+       <div class="content_experience" id="content_experience">
+        {{ page.content_experience }}
+       </div>
+    </div>
+    <div class="content_nation_main" id="content_nation">
+      <div class="content_nation" id="content_nation">
+        {{ page.content_nation }}
+      </div>
+    </div>
+</section>
+<footer aria-label="Site footer" class="footer" id="footer" role="contentinfo">
+   <div class="footer--top">
+     {{ page.footer_top }}
+   </div>
+   <div class="footer--bottom">
+       {{ page.footer_bottom }}
+   </div>
+</footer>
+</div>
