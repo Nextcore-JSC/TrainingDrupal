@@ -19,6 +19,8 @@ regions:
   slider : Slider
   category_menu : Category menu 
   content: Content
+  news_left: new left
+  news_right: new right
   content_left_product : Content left
   content_right_product : Content right
   content_experience  : Content experience 
