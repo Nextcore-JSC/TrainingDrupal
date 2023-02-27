@@ -15,6 +15,11 @@
         {{ page.header_search }}
      </div>  
   </header>
+  <section class="breadcrumb" id="breadcrumb" role="complementary">
+    <div class="breadcrumb-with">
+      {{ page.breadcrumb }}
+    </div>
+  </section>
   <section class="slider" id="slider" role="complementary">
     <div>
       {{ page.slider }}
@@ -27,6 +32,14 @@
     </div>
     <div aria-label="Site main content" class="content" id="content" role="main">
       {{ page.content }}
+      <div class="content_product">
+        <div class="content_product_left">
+          {{ page.content_left_product }}
+        </div>
+        <div class="content_product_right">
+          {{ page.content_right_product }}
+        </div>
+      </div>
     </div>
     <div class="news" id="news">
       <div class="news_left" id="news_left" role="main">

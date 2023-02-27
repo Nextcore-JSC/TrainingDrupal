@@ -12,18 +12,21 @@ libraries:
 
 regions:
   header_language: Header language 
-  header_logo : header logo
-  header_menu : header menu
-  header_search : header search
+  header_logo : Header logo
+  header_menu : Header menu
+  header_search : Header search
+  breadcrumb: Breadcrumb
   slider : Slider
-  category_menu : category menu 
-  content: content
+  category_menu : Category menu 
+  content: Content
   news_left: new left
   news_right: new right
-  content_experience  : content experience 
-  content_nation  : content experience 
-  footer_top : footer top
-  footer_bottom : footer bottom
+  content_left_product : Content left
+  content_right_product : Content right
+  content_experience  : Content experience 
+  content_nation  : Content nation
+  footer_top : Footer top
+  footer_bottom : Footer bottom
 
 
 version: '10.x'
