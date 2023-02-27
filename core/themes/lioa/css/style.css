@@ -18,6 +18,22 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.breadcrumb {
+    clear: both;
+    background-image: url(https://lioa.com.vn/sites/all/themes/evolve/assets/images/parallex-inner.jpg);
+    background-attachment: fixed;
+    background-position: 50% 0;
+    margin-bottom: 50px;
+}
+.breadcrumb-with {
+    width: 1200px;
+    margin: auto;
+}
 .slider {
     max-height: 500px;
 }
@@ -35,6 +51,17 @@ body{
     margin: auto;
     margin-top: 18px;
     padding: 0 15px;
+}
+.main .content .content_product {
+    display: flex;
+}
+.main .content .content_product .content_product_left {
+    width: 25%;
+    padding-right:15px;
+}
+.main .content .content_product .content_product_right {
+    width: 75%;
+    padding-left:15px;
 }
 .main .content_experience{
     width: 1200px;
