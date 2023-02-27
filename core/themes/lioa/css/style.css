@@ -36,6 +36,20 @@ body{
     margin-top: 18px;
     padding: 0 15px;
 }
+
+.main .news {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.main .news .news_left {
+    width: 75%;
+    padding-right: 15px;
+}
+.main .news .news_right {
+    width: 25%;
+    padding-left: 15px;
+}
 .main .content_experience{
     width: 1200px;
     margin: auto;

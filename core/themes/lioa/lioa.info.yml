@@ -18,6 +18,8 @@ regions:
   slider : Slider
   category_menu : category menu 
   content: content
+  news_left: new left
+  news_right: new right
   content_experience  : content experience 
   content_nation  : content experience 
   footer_top : footer top
