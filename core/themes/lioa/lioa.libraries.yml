@@ -1,0 +1,12 @@
+global-styling:
+  version : 1.x
+  js:
+    js/scrip.js : {}
+  css:
+    theme:
+      css/style.css : {}
+home-styling:
+  version : 1.x
+  css:
+    theme:
+      css/home.css : {}      
