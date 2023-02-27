@@ -10,18 +10,25 @@ body{
     margin: auto;
 }
 .header{
-    border-top: 1px solid #ECEEF0;
+    background-color: #FFF;
+    opacity: 1;   
+    z-index: 1;
+}
+.header .header--main {
     width: 1200px;
     margin: auto;
     height: 69px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    margin: auto;
+    opacity: 0.5;
   }
 .breadcrumb {
     clear: both;
