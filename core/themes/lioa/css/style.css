@@ -51,7 +51,10 @@ body{
 }
 
 /* -------------------------------footer------------------------------- */
-
+.footer .footer-with {
+    width: 1200px;
+    margin: auto;
+}
 .footer .footer--top{
     color: #BCC1C5;
     font-size: 13px;
