@@ -1,6 +1,13 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    font-family: tahoma;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }
 .embrace .main_language {
     border-bottom: 1px solid #ECEEF0;
@@ -8,6 +15,9 @@ body{
 .embrace .main_language .language{
     width: 1200px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .header{
     background-color: #FFF;
@@ -28,7 +38,7 @@ body{
     top: 0;
     width: 100%;
     margin: auto;
-    opacity: 0.5;
+    opacity: 0.8;
   }
 .breadcrumb {
     clear: both;
