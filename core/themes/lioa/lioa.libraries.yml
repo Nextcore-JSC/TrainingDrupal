@@ -10,3 +10,5 @@ home-styling:
   css:
     theme:
       css/home.css : {}      
+  js:
+    js/home.js : {}

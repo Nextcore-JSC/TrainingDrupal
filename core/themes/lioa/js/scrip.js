@@ -6,4 +6,3 @@ window.addEventListener("scroll", function () {
       document.getElementsByClassName("header")[0].classList.remove("sticky");
     }
   });
-  
