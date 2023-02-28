@@ -20,11 +20,6 @@
      </div>  
     </div>
   </header>
-  <section class="breadcrumb" id="breadcrumb" role="complementary">
-    <div class="breadcrumb-with">
-      {{ page.breadcrumb }}
-    </div>
-  </section>
   <section class="slider" id="slider" role="complementary">
     <div>
       {{ page.slider }}
@@ -36,6 +31,11 @@
       {{ page.category_menu }}
     </div>
     <div aria-label="Site main content" class="content" id="content" role="main">
+    <div class="breadcrumb">
+      <div class="breadcrumb-with">
+       {{ page.breadcrumb }}
+      </div>
+      </div>
       {{ page.content }}
       <div class="content_product">
         <div class="content_product_left">
