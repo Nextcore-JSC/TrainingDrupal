@@ -203,14 +203,16 @@ strong {
 }
 
 /* // Menu category */
-
+*{
+    box-sizing: border-box;
+}
 
 a {
     text-decoration: none;
 }
 button{
-        font-size: 15px;
-        color: #0000008f;
+    font-size: 15px;
+    color: #0000008f;
 }
 .category_menu nav>ul {
     display: flex;
