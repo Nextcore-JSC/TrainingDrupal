@@ -9,7 +9,9 @@ home-styling:
   version : 1.x
   css:
     theme:
-      css/home.css : {}      
+      css/home.css : {}  
+  js:
+    js/home.js : {}        
 
 fontawesome:
   version: 4.7.0

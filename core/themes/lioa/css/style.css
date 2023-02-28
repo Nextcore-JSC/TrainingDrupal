@@ -52,7 +52,7 @@ a {
     margin: auto;
 }
 .slider {
-    max-height: 500px;
+    /* max-height: 500px; */
 }
 .main .category_menu{
     width: 1200px;
