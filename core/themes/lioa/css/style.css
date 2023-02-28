@@ -1,6 +1,13 @@
 body{
     margin: 0;
     box-sizing: border-box;
+    font-family: tahoma;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }
 .embrace .main_language {
     border-bottom: 1px solid #ECEEF0;
@@ -8,25 +15,57 @@ body{
 .embrace .main_language .language{
     width: 1200px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .header{
-    border-top: 1px solid #ECEEF0;
+    background-color: #FFF;
+    opacity: 1;   
+    z-index: 1;
+}
+.header .header--main {
     width: 1200px;
     margin: auto;
     height: 69px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
+}
+.header .header--search img{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: auto;
+    opacity: 0.8;
+  }
+.breadcrumb {
+    clear: both;
+    background-image: url(https://lioa.com.vn/sites/all/themes/evolve/assets/images/parallex-inner.jpg);
+    background-attachment: fixed;
+    background-position: 50% 0;
+    margin-bottom: 50px;
+}
+.breadcrumb-with {
+    width: 1200px;
+    margin: auto;
 }
 .slider {
-    max-height: 500px;
+    /* max-height: 500px; */
 }
 .main .category_menu{
+    background: #e5591e;
     width: 1200px;
     height: auto;
     box-shadow: 1px 2px 2px rgb(170 170 170);
     margin: auto;
-    margin-top: -20px;
+    margin-top: -110px;
     position: relative;
     z-index: 500;
 }
@@ -36,9 +75,35 @@ body{
     margin-top: 18px;
     padding: 0 15px;
 }
+
+.main .news {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+}
+.main .news .news_left {
+    width: 75%;
+    padding-right: 15px;
+}
+.main .news .news_right {
+    width: 25%;
+    padding-left: 15px;
+}
+.main .content .content_product {
+    display: flex;
+}
+.main .content .content_product .content_product_left {
+    width: 25%;
+    padding-right:15px;
+}
+.main .content .content_product .content_product_right {
+    width: 75%;
+    padding-left:15px;
+}
 .main .content_experience{
     width: 1200px;
     margin: auto;
+    height: 200px;
 }
 .main .content_experience-main {
     background: #E5591E;
@@ -49,6 +114,8 @@ body{
 .main .content_nation {
     width: 1200px;
     margin: auto;
+    background: url(https://lioa.com.vn/sites/all/themes/evolve/assets/images/bando.png) no-repeat center 60px;
+        min-height: 626px;
 }
 
 /* -------------------------------footer------------------------------- */
