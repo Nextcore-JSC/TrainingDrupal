@@ -222,6 +222,7 @@ strong {
 
 a {
     text-decoration: none;
+    padding-right: 47px;
 }
 
 button {
@@ -355,4 +356,11 @@ a.xt {
     text-transform: none;
     margin-left: 13px;
     padding-top: 15px;
+}
+
+/* Footer bottom */
+.footer_bt{
+    margin: 0;
+    padding: 15px 0;
+    color: rgb(214, 214, 214);
 }
