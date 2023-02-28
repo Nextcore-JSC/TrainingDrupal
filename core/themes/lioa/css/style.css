@@ -98,6 +98,7 @@ a {
 .main .content_experience{
     width: 1200px;
     margin: auto;
+    height: 200px;
 }
 .main .content_experience-main {
     background: #E5591E;
@@ -108,6 +109,8 @@ a {
 .main .content_nation {
     width: 1200px;
     margin: auto;
+    background: url(https://lioa.com.vn/sites/all/themes/evolve/assets/images/bando.png) no-repeat center 60px;
+        min-height: 626px;
 }
 
 /* -------------------------------footer------------------------------- */
