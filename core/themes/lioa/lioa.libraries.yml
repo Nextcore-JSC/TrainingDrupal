@@ -10,3 +10,9 @@ home-styling:
   css:
     theme:
       css/home.css : {}      
+
+fontawesome:
+  version: 4.7.0
+  css:
+    component:
+      css/font-awesome.css: {}

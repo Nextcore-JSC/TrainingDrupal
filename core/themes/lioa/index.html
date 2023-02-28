@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="language_icon">
+        <ul>
+            <li><a href="/vi"><img src="/core/themes/lioa/images/vietnam_flag.png" alt="language vi"></a></li>
+            <li><a href="/en"><img src="/core/themes/lioa/images/uk_flag_icon.png" alt="language en"></a></li>
+        </ul>
+    </div>
+    <div class="header--menu">
+
+        <div class="header--menu-list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#"> Giới Thiệu</a>
+                    <ul>
+                        <li><a class="" href="">Dây và cáp điện</a></li>
+                        <li><a href="">Dây và cáp điện</a></li>
+                        <li><a href="">Dây và cáp điện</a></li>
+                        <li><a href="">Dây và cáp điện</a></li>
+                        <li><a href="">Dây và cáp điện</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header--search">
+        <a href="#"><i class="fa fa-search"></i></a>
+       
+    </div>
+</body>
+<style>
+    body {
+        background: gray;
+    }
+    li {
+        list-style: none;
+
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .language_icon>ul {
+        display: flex;
+    }
+
+    .language_icon>ul>li {
+        margin: 0 5px;
+    }
+
+    .language_icon>ul>li>a {
+        display: block;
+    }
+
+    .language_icon>ul>li>a>img {
+        width: 100%;
+        height: 18px;
+    }
+
+
+    .header--menu {
+        height: 69px;
+        background: #6b6969;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header--menu-list>ul {
+        display: flex;
+    }
+
+    .header--menu-list>ul>li {
+        margin: 0 2px;
+        position: relative;
+    }
+
+    .header--menu-list>ul>li>a {
+        text-transform: uppercase;
+        font-size: 13px;
+        color: #2D3E52;
+        font-weight: bold;
+        line-height: 65px;
+        display: block;
+        padding: 0 13px;
+        transition: all 0.3s ease-in-out;
+        text-shadow: none;
+        position: relative;
+    }
+    .header--menu-list>ul>li>a:before {
+        display: block;
+        content: "";
+        background: #F56450;
+        height: 3px;
+        width: 100%;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    }
+    .header--menu-list>ul>li>a:hover {
+     color: #F56450;
+    }
+    .header--menu-list>ul>li>a:hover:before {
+        opacity: 1;
+    } 
+    .header--menu-list>ul>li ul{
+        position: absolute;
+        margin: 0;
+        top: 111px;
+        padding: 0;
+        background-color: #FFF;
+        min-width: 200px;
+        z-index: 1;
+        border-radius: 5px;
+        opacity: 0;
+        transition: all 0.3s ease-in-out;
+    }
+    .header--menu-list>ul>li ul li {
+        border-bottom: 1px solid #EFF4F7;
+        position: relative;
+    }
+    .header--menu-list>ul>li ul li a{
+        display: block;
+        color: #313131;
+        line-height: 30px;
+        padding: 0 13px;
+        font-size: 14px;
+    }
+    .header--menu-list>ul>li ul li a:hover{
+        color: #a3a2a2;
+        background: rgba(239, 244, 247,0.5);
+    }
+    .header--menu-list>ul>li ul li .show-menu-chilren{
+        color: #a3a2a2;
+        background: rgba(239, 244, 247,0.5);
+    }
+    .header--menu-list>ul>li:hover ul{
+        opacity: 1;
+        top: 69px;
+    }
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .header--search a i{
+       color: #F56450;
+    }
+</style>
+
+</html>
