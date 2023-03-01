@@ -169,7 +169,7 @@
 .main_dot {
     text-align: center;
     position: relative;
-    top: -125px
+    top: -80px
 }
 
 .dot {
@@ -422,7 +422,6 @@ a.xt {
     display: flex;
     align-items: center;
     position: relative;
-    right: 290px;
 }
 .footer_bt a {
     margin-right: 45px;
