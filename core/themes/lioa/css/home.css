@@ -463,7 +463,7 @@ a.xt {
     display: flex;
     width: 330px;
 }
-.footer .footer-with nav >ul > li {
+.footer .footer-with nav:last-child >ul > li{
     width: 50%;
 }
 .footer .footer-with nav >ul > li > ul {
