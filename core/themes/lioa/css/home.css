@@ -459,7 +459,7 @@ a.xt {
     width: 205px;
     padding-right: 45px;
 }
-.footer .footer-with nav >ul{
+.footer .footer-with nav:last-child >ul{
     display: flex;
     width: 330px;
 }
