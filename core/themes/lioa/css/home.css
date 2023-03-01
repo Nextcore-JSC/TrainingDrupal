@@ -107,7 +107,9 @@
 .mySlides {
     display: none
 }
-
+.mySlides .text p strong {
+    font-size: 30px;
+}
 .slider img {
     vertical-align: middle;
     height: 500px;
@@ -162,9 +164,6 @@
     color: #00000087;
 }
 
-strong {
-    font-size: 30px;
-}
 
 /* The dots/bullets/indicators */
 .main_dot {
@@ -453,3 +452,10 @@ h2{
     color: #e23500;
 }
 
+.footer .footer-with>div nav {
+    padding-right: 45px;
+}
+#block-lienhe {
+    width: 205px;
+    padding-right: 45px;
+}
