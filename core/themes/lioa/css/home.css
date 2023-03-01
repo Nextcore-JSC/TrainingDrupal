@@ -282,11 +282,6 @@ strong {
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    padding-right: 47px;
-}
-
 button {
     font-size: 15px;
     color: #0000008f;
@@ -425,4 +420,36 @@ a.xt {
     margin: 0;
     padding: 15px 0;
     color: rgb(214, 214, 214);
+    display: flex;
+    align-items: center;
 }
+.footer_bt a {
+    margin-right: 45px;
+}
+
+
+/* Footer Top Category */
+
+h2{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-family: rbold, "Raleway", "Open sans", "myriad pro", tahoma;
+    text-transform: none;
+    margin-bottom: 26px;
+}
+
+
+.footer .footer-with>div nav ul {
+    padding: 0;
+}
+.footer .footer-with>div nav ul li a{
+    color: #bcc1c5;
+    line-height: 25px;
+}
+.footer .footer-with>div nav ul li a:hover {
+    color: #e23500;
+}
+
