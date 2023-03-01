@@ -476,7 +476,7 @@ a.xt {
 .link_a {
     color: #ffb595;
 }
-.footer .footer-with nav >ul{
+.footer .footer-with nav:last-child >ul{
     display: flex;
     width: 330px;
 }
