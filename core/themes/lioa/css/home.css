@@ -429,7 +429,7 @@ a.xt {
 
 /* Footer Top Category */
 
-h2{
+.footer .footer-with h2{
     color: #FFFFFF;
     font-size: 15px;
     font-weight: 800;
