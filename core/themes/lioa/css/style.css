@@ -33,6 +33,11 @@ a {
     align-items: center;
    
 }
+.header .header--search img{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
 .sticky {
     position: fixed;
     top: 0;
