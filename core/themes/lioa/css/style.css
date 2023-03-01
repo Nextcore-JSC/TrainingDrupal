@@ -114,7 +114,8 @@ a {
     width: 1200px;
     margin: auto;
     background: url(https://lioa.com.vn/sites/all/themes/evolve/assets/images/bando.png) no-repeat center 60px;
-        min-height: 626px;
+    min-height: 626px;
+    position: relative;
 }
 
 /* -------------------------------footer------------------------------- */
