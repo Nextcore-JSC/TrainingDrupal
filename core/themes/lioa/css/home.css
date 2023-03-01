@@ -421,6 +421,8 @@ a.xt {
     color: rgb(214, 214, 214);
     display: flex;
     align-items: center;
+    position: relative;
+    right: 290px;
 }
 .footer_bt a {
     margin-right: 45px;
@@ -458,6 +460,21 @@ a.xt {
 .footer .footer-with .content-lien-he{
     width: 205px;
     padding-right: 45px;
+}
+
+.tdphong {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: rgb(201, 201, 201);
+    border-left: 3px solid #e75b1c;
+    padding-left: 7px;
+    padding-top: 0px;
+    display: inline-block;
+    line-height: 13px;
+    margin-top: 1px;
+}
+.link_a {
+    color: #ffb595;
 }
 .footer .footer-with nav:last-child >ul{
     display: flex;
