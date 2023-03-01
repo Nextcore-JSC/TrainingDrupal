@@ -440,7 +440,9 @@ a.xt {
     margin-bottom: 26px;
 }
 
-
+.footer .footer-with .ppcon {
+    padding-left: 15px;
+}
 .footer .footer-with>div nav ul {
     padding: 0;
 }
