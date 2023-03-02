@@ -125,6 +125,7 @@ a {
 }
 .footer .footer-with>div{
     display: flex;
+    padding-left: 90px;
 }
 .footer .footer--top{
     color: #BCC1C5;
