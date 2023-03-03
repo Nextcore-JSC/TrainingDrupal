@@ -1,23 +1,18 @@
 <?php
 
 /**
- * Implements hook_preprocess_page_title().
+ * Implements hook_preprocess_page().
  */
-function lioa_preprocess_page_title(&$variables) {
-}
-
 function lioa_preprocess_page(&$variables) {
+  // dsm($variables);
+  kint($variables);
   if ($node = \Drupal::routeMatch()->getParameter('node')) {
-    // Load the label of the bundle
     if ($node->uid == 1) {
-    // Set the page title
     $variables['fooder_bottom'] = 'Chúng tôi là nhà sản xuất Việt Nam';
     }
   }
-
-  // $node = \Drupal::request()->attributes->get('node');
-  // if ($node && $node->uid == 1) {
-  //   $variables['title'] = t('Diep', ['title' => $node->getTitle()]);
-  // }
   
 }
+// function lioa_node_update_index(\Drupal\node\NodeInterface $node) {
+  
+// }
