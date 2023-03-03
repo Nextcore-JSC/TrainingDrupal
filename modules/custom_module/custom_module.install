@@ -1,0 +1,59 @@
+<?php
+
+use Drupal\Core\Database\Database;
+use Drupal\Core\Database\DatabaseException;
+function custom_module_install() {
+    // Kiểm tra sự tồn tại của bảng trong database.
+    // $table_exists = \Drupal::database()->schema()->tableExists('custom_users');
+
+    // Tạo bảng trong database.
+    $schema = \Drupal::database()->schema();
+    $table_name = 'custom_users';
+    $table_schema = array(
+        'description' => 'Custom users table.',
+        'fields' => array(
+            'id' => array(
+                'type' => 'serial',
+                'unsigned' => TRUE,
+                'not null' => TRUE,
+            ),
+            'name' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+            'email' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+            'password' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+            'gender' => array(
+                'type' => 'varchar',
+                'length' => 50,
+                'not null' => TRUE,
+            ),
+            'birthday' => array(
+                'type' => 'varchar',
+                'length' => 50,
+                'not null' => TRUE,
+            ),
+        ),
+        'primary key' => array('id'),
+    );
+    try {
+        $schema->createTable($table_name, $table_schema);
+    } catch (DatabaseException $e) {
+        // Xử lý lỗi nếu cần.
+    }
+}
+
+//-- số 8101 là số phiên bản của module cần tăng lên sau khi thực hiện một thay đổi khác của module
+function custom_module_update_8101() {
+    $schema = \Drupal::database()->schema();
+    $schema->dropField('custom_users', 'agree');
+  }

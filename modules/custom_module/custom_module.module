@@ -1,0 +1,9 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+
+function custom_module_form_alter(&$items) {
+    // $items['Custom']['#attached']['library'][] = 'custom_module/styling';
+   
+}
