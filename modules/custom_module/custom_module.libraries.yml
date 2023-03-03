@@ -1,0 +1,4 @@
+styling:
+  css:
+    theme:
+      css/custom_module.css: {}

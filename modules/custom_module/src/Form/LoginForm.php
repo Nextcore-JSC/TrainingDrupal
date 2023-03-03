@@ -52,31 +52,40 @@ class LoginForm extends FormBase
     {
     }
     public function submitForm(array &$form, FormStateInterface $form_state) {
+
         $email = $form_state->getValue('Email');
         $password = $form_state->getValue('Password');
       
         // Kiểm tra xem email có tồn tại trong database hay không.
         $query = \Drupal::database()->select('custom_users', 'cu');
-        $query->fields('cu', ['id', 'password' ]);
+        $query->fields('cu', ['id','email', 'password' ]);
+        // sql where
         $query->condition('cu.email', $email);
+
         $result = $query->execute();
         $account = $result->fetchAssoc();
+        $hashed_password = md5($password);
+        
+        // dump($password_hasher);
+        // dump($hashed_password);
+        // dump($account['password']);
         if ($account) {
           // Kiểm tra mật khẩu.
-          if (\Drupal::service('password')
-            ->check($password, $account['password'])) {
+          if ($account['password'] == $hashed_password) {
             // Đăng nhập thành công.
-            user_login_finalize($account);
             $this->messenger()->addStatus($this->t('Đăng nhập thành công'));
             $url = Url::fromUri('internal:/home');
             $form_state->setRedirectUrl($url);
           } else {
-            // Mật khẩu không chính xác.
+            dump('sai mk');
+
             $form_state->setErrorByName('Password', $this->t('Mật khẩu không chính xác'));
+            
           }
         } else {
-          // Email không tồn tại.
-          $form_state->setErrorByName('Email', $this->t('Email không tồn tại'));
+        //   $form_state->setErrorByName('Email', $this->t('Email không tồn tại'));
+          dump('sai email');
+
         }
     }     
     
