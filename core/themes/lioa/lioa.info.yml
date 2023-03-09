@@ -9,6 +9,8 @@ package: Custom
 libraries:
   - lioa/global-styling
   - lioa/home-styling
+  - lioa/breadcrumb-styling
+  - lioa/product-styling
 
 regions:
   header_language: Header language 

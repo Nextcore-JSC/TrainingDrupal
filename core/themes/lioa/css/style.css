@@ -56,6 +56,9 @@ a {
     width: 1200px;
     margin: auto;
 }
+.breadcrumb-with .flex_breadcrumb {
+    display: flex;
+}
 .slider {
     /* max-height: 500px; */
 }

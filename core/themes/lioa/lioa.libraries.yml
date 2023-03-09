@@ -18,3 +18,15 @@ fontawesome:
   css:
     component:
       css/font-awesome.css: {}
+
+breadcrumb-styling: 
+  version : 1.x
+  css :
+    theme : 
+      css/breadcrumb.css : {}
+
+product-styling: 
+  version : 1.x
+  css :
+    theme : 
+      css/product.css : {}      
