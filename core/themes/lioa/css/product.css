@@ -17,6 +17,7 @@
 .product-view .views-row .views-col .views-field-title a {
     color: #000;
     font-size: 14px;
+    padding-bottom: 15px;
     transition: ease 0.2s;
 }
 .product-view .views-row .views-col .views-field-title a:hover{
