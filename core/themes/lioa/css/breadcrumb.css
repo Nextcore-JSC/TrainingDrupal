@@ -1,0 +1,24 @@
+.flex_breadcrumb {
+    display: flex;
+    justify-content: space-between;
+}
+.flex_breadcrumb .breadcrumb_list {
+    display: flex;
+}
+.flex_breadcrumb .breadcrumb_list .breadcrumb_item .breadcrumb_size {
+    color: #ccc;
+    font-size: 12px;
+
+}
+.flex_breadcrumb .breadcrumb_list .breadcrumb_item .breadcrumb_next{
+    margin-left: 5px;
+}
+.flex_breadcrumb .breadcrumb_list .breadcrumb_item .breadcrumb_hover{
+    transition: ease-in-out 0.2s;
+}
+.flex_breadcrumb .breadcrumb_list .breadcrumb_item .breadcrumb_hover:hover{
+    color: #fff;
+}
+.flex_breadcrumb .breadcrumb_title {
+    color: #fff;
+}
