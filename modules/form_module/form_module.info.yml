@@ -1,0 +1,13 @@
+type: module
+name: Form Module
+description: 'Module Form!!!'
+package: Form
+core_version_requirement: ^9 || ^10
+php: 7.2
+configure: form_module.links
+tags:
+ - developer
+
+version: '4.2.1'
+project: 'Form'
+datestamp: 1664317447

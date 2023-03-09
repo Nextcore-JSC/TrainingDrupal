@@ -1,0 +1,53 @@
+<?php
+
+use Drupal\Core\Database\Database;
+use Drupal\Core\Database\DatabaseException;
+function form_module_install() {
+    // check table database.
+    $table_exists = \Drupal::database()->schema()->tableExists('contact_form');
+
+    // create database.
+    $schema = \Drupal::database()->schema();
+    $table_name = 'contact_form_module';
+    $table_schema = array(
+        'description' => 'Form Contact',
+        'fields' => array(
+            'id' => array(
+                'type' => 'serial',
+                'unsigned' => TRUE,
+                'not null' => TRUE,
+            ),
+            'name' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+            'email' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+            'gender' => array(
+                'type' => 'varchar',
+                'length' => 50,
+                'not null' => TRUE,
+            ),
+            'title' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+            'message' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+        ),
+        'primary key' => array('id'),
+    );
+    try {
+        $schema->createTable($table_name, $table_schema);
+    } catch (DatabaseException $e) {
+        // error
+    }
+}
