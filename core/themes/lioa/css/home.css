@@ -178,10 +178,11 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #f3f3f36e;
+    background-color: #8f8c8c6e;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    color: rgba(95, 158, 160, 0);
 }
 
 .active,
@@ -496,4 +497,34 @@ a.xt {
 }
 .footer .footer-with nav >ul > li > ul > li > ul > li {
     list-style-type: decimal;
+}
+/* //product category left */
+.content_product_left nav > ul {
+    line-height: 30px;
+    font-size: 15px;
+}
+.content_product_left nav > ul > li:first-child {
+    font-size: 15px;
+    color: #414141;
+    font-weight: bold;
+    list-style-image: url(https://lioa.com.vn/misc/menu-expanded.png);
+
+}
+.content_product_left nav > ul>li>ul>li {
+    list-style-image: url(https://lioa.com.vn/misc/menu-leaf.png);
+
+}
+.content_product_left nav > ul>li>ul>li a {
+    color: #626161;
+    font-weight: normal;
+    margin-left: 2px;
+    text-transform: none;
+
+}
+.content_product_left nav > ul > li > a{
+    color: #414141;
+    font-weight: bold;
+}
+.content_product_left nav > ul > li {
+    list-style-image: url(https://lioa.com.vn/misc/menu-collapsed.png);
 }
