@@ -11,6 +11,7 @@ libraries:
   - lioa/home-styling
   - lioa/breadcrumb-styling
   - lioa/product-styling
+  - lioa/layout-views-grid-gioi-thieu
 
 regions:
   header_language: Header language 

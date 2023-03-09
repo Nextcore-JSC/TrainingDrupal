@@ -29,4 +29,10 @@ product-styling:
   version : 1.x
   css :
     theme : 
-      css/product.css : {}      
+      css/product.css : {} 
+
+layout-views-grid-gioi-thieu:
+  version : 1.x
+  css : 
+    theme :
+      css/layout/layout-views-grid-gioi-thieu.css : {}
