@@ -239,9 +239,13 @@
 .tin-tuc {
     height: 290px;
 }
+.tin-tuc .text-tin-tuc{
+    margin-bottom: 20px;
+}
 .tin-tuc .views-view-grid .views-row .views-field-field-image {
    float : left;
 }
+
 .tin-tuc .views-view-grid .views-row {
    display: flex;
 }
