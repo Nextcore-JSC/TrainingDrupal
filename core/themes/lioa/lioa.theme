@@ -23,18 +23,3 @@ function lioa_preprocess_breadcrumb(&$variables) {
     $variables['breadcrumb_title'] = $page_title;
 	}
 }
-/**
- * Implements hook_preprocess_block().
- */
-function lioa_preprocess_views(&$variables) {
-  dump($block);
-  // switch ($block->delta) {
-  //   case '1':
-  //     $data['content'] = 'The content of the block created using UI';
-  //     break;
-
-  //   case 'my_custom_block':
-  //     $data['content'] = 'The content of my custom block';
-  //     break;
-  // }
-}
