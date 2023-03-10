@@ -6,10 +6,3 @@ window.addEventListener("scroll", function () {
       document.getElementsByClassName("header")[0].classList.remove("sticky");
     }
   });
-
-  // --------------------------------------------------------------------------
-
-document.getElementById("language_vi").addEventListener("click", myFunction);
-function myFunction () {
-    console.log(window.location.hostname);
-}
