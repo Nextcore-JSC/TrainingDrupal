@@ -12,7 +12,7 @@ libraries:
   - lioa/home-styling
   - lioa/breadcrumb-styling
   - lioa/product-styling
-  - lioa/layout-views-grid-gioi-thieu
+  - lioa/layout-views-grid-company
 
 regions:
   header_language: Header language 

@@ -31,8 +31,8 @@ product-styling:
     theme : 
       css/product.css : {} 
 
-layout-views-grid-gioi-thieu:
+layout-views-grid-company:
   version : 1.x
   css : 
     theme :
-      css/layout/layout-views-grid-gioi-thieu.css : {}
+      css/layout/layout-views-grid-company.css : {}

@@ -27,18 +27,18 @@
 
 {%
   set classes = [
-    'flex-gioi-thieu',
+    'flex-company',
   ]
 %}
 
 {% if title %}
-	<h3 class= "title_gioi_thieu">{{ title }}</h3>
+	<h3 class= "title_company">{{ title }}</h3>
 {% endif %}
 <div{{attributes.addClass(classes)}}>
 		{% for row in items %}
 			{% for item in row.content %}
 				<div class="views-view-grid__item flex-wrap-width">
-					<div class="views-view-grid__gioi-thieu">
+					<div class="views-view-grid__company">
 						{{- item.content -}}
 					</div>
 				</div>
