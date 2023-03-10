@@ -20,6 +20,7 @@ function lioa_preprocess_breadcrumb(&$variables) {
 		$variables['breadcrumb'][] = [
 			'text' => $page_title,
 		];
+		
     $variables['breadcrumb_title'] = $page_title;
 	}
 }

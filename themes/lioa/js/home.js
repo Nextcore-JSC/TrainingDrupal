@@ -25,3 +25,9 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+// --------------------------------------------------------------------------
+
+document.getElementById("language_vi").addEventListener("click", myFunction);
+function myFunction () {
+    console.log(window.location.hostname);
+}
